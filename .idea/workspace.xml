@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d1c6e9-c66d-4e2f-a413-b1d704a7d540" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/deps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/cars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/claims.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/health.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/policies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routers/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/scheduling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/models/car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/models/owner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +40,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/pazoitei/PycharmProjects/Car_Insurance_Project&quot;
