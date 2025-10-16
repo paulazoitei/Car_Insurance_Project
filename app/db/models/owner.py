@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy import String
 from typing import List
 from ..base import Base
-from car import Car
+
 
 class Owner(Base):
    __tablename__ ="owner"
