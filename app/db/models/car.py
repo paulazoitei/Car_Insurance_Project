@@ -3,6 +3,9 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy import String,ForeignKey
 from ..base import Base
 from typing import List
+from app.db.models.owner import Owner
+from app.db.models.claim import Claim
+from app.db.models.insurance_policy import InsurancePolicy
 
 
 class Car(Base):
