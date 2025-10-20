@@ -1,7 +1,7 @@
 import datetime
 
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy import ForeignKey,DateTime,Text,DECIMAL
+from sqlalchemy import ForeignKey,DateTime,Text,DECIMAL,Index
 from sqlalchemy.sql import func
 from ..base import Base
 
@@ -15,3 +15,7 @@ class Claim(Base):
     description:Mapped[str]=mapped_column(Text,nullable=False)
     amount:Mapped[DECIMAL]=mapped_column(DECIMAL(12,2),nullable=False)
     created_at:Mapped[datetime.datetime]=mapped_column(DateTime(timezone=True),server_default=func.now(),nullable=False)
+
+    __table_args__ = (
+        Index("claim_index","car_id","claim_date"),
+    )
