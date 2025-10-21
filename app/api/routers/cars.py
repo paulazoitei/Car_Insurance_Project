@@ -3,8 +3,8 @@ from fastapi import APIRouter,Depends
 from sqlalchemy import select
 from app.db.session import get_db
 from app.db.models.car import Car
+from app.api.schemas.car_out import CarOut
 
-from app.api.schemas import CarOut
 
 
 router=APIRouter()
