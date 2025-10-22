@@ -1,9 +1,10 @@
 import datetime
 
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy import ForeignKey,DateTime,Text,DECIMAL,Index
+from sqlalchemy import ForeignKey,DateTime,Text,Index,DECIMAL
 from sqlalchemy.sql import func
 from ..base import Base
+
 
 
 class Claim(Base):

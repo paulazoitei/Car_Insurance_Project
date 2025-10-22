@@ -1,12 +1,14 @@
 from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict
+from decimal import Decimal
 
 
 class ClaimOut(BaseModel):
     id: int
-    description: str | None = None
-    created_at: datetime | None = None
-
-    model_config = ConfigDict(from_attributes=True)
+    car_id:int
+    claim_date: datetime
+    description: str
+    amount :Decimal
+    model_config = ConfigDict(from_attributes=True,arbitrary_types_allowed=True)
 

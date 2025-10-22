@@ -9,3 +9,4 @@ class InsurancePolicyOut(BaseModel):
     end_date: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
